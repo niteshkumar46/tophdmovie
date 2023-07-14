@@ -1,27 +1,21 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʟᴏ {}
+    START_TXT = """<b>Hᴇʟʟᴏ {} 👋🏻
     
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ
-
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/J_shree_ram">ɴᴏᴛʜɪɴɢ ʙʀᴏ</a></b> 😏</b>"""
-
     
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/J_shree_ram'>ɴᴏᴛʜɪɴɢ ʙʀᴏ</a>
- 📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
- 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
- ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
+ 👨‍💻 Cʀᴇᴀᴛᴏʀ: <a href="https://t.me/sheffy_samra">moviescrown</a>
+ ♻️ Paid Repo : <a href='https://t.me/sheffy_samra'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
  📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://www.heroku.com/'>Heroku</a>
  🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.0 [sᴛᴀʙʟᴇ​]</b>"""
 
-    SOURCE_TXT = """
-<b>Tʜɪꜱ Bᴏᴛ Iꜱ NOT Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
-"""
+    SOURCE_TXT = """<b>ɴᴏᴛᴇ:
+- <a href="https://t.me/sheffy_samra">moviescrown</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -202,20 +196,32 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
- {file_name}
-
-⚙️ sɪᴢᴇ : {file_size}"""
+<code>{file_name}</code>
+<b>
+=========== • ✠ • ===========
+▫️ ᴄʜᴀɴɴᴇʟ : @moviescrown123
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @moviescrown
+=========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
 IMDb Data:
 
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-⏱️ Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
-    
+    IMDB_TEMPLATE_TXT = """
+<b>🏷 Title</b>: <a href={url}>{title}</a>
+<b>🎭 Genres</b>: {genres}
+<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>
+<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>
+<b>☀️ Languages</b> : <code>{languages}</code>
+<b>💙Requested by💙</b> : {message.from_user.mention}
+
+If Bot didn't Send File Then Msg here - @Sharedpost123bot
+
+Note : guys Kabhi Kabhi Thumbnail koi aur show ho jata hai Toh Please niche links mei file ka name check kro.
+ 
+♡ ㅤ   ❍ㅤ     ⎙      ⌲
+ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ   ˢᵃᵛᵉ   ˢʰᵃʳᵉ"""
+
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
     
