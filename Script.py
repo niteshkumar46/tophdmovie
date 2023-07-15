@@ -202,11 +202,11 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
- <code>{file_name}</code>
-<b>
+ <a href='channel link'>{file_name}</a>
+ 
 =========== • ✠ • ===========
 ▫️ ᴄʜᴀɴɴᴇʟ : @moviescrown123
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : 
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @moviescrown123
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
