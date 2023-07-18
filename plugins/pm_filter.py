@@ -1756,7 +1756,7 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             btn = [[
-                    InlineKeyboardButton(f"Searching  🔍  for {search}", callback_data=f"close_data")
+                    InlineKeyboardButton(f"Searching  🔍  for  '{search}'", callback_data=f"close_data")
                   ]]
             dlt = await message.reply_sticker('CAACAgIAAxkBAAEJsj9ksnMy2J79ogEmayN3mWOKMj2UgAACYgEAAj0N6AQb5sCBchFveC8E', reply_markup=InlineKeyboardMarkup(btn))
             search = search.lower()
@@ -1790,7 +1790,7 @@ async def auto_filter(client, msg, spoll=False):
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
         btn = [[
-                InlineKeyboardButton(f"Searching  🔍  for {search}", callback_data=f"close_data")
+                InlineKeyboardButton(f"Searching  🔍  for  '{search}'", callback_data=f"close_data")
               ]]
         dlt = await message.reply_sticker('CAACAgIAAxkBAAEJsj9ksnMy2J79ogEmayN3mWOKMj2UgAACYgEAAj0N6AQb5sCBchFveC8E', reply_markup=InlineKeyboardMarkup(btn))
         settings = await get_settings(message.chat.id)
