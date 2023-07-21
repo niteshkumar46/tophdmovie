@@ -317,10 +317,10 @@ async def start(client, message):
                 f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Refresh Token", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                    InlineKeyboardButton("Free Subscription", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified ! ʜᴇʟᴏ {} Your Token Is Expired,\nKindly verify to your token and get free membership in group !\nthis validity 12 hours only \nafter verification u r premium member in this group</b>",
+                    text="<b>Hey {message.from_user.mention} ग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \nMembership of the group is absolutely free by visiting the link given below !\nhttps://t.me/how_to_download_movie_from_bot</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -376,10 +376,10 @@ async def start(client, message):
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Refresh Token", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                    InlineKeyboardButton("Free Subscription", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b><b>You are not verified ! ʜᴇʟᴏ {} Your Token Is Expired,\nKindly verify to your token and get free membership in group !\nthis validity 12 hours only \nafter verification u r premium member in this group</b>",
+                    text="<b><b>Hey {message.from_user.mention} ग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \nMembership of the group is absolutely free by visiting the link given below !\nhttps://t.me/how_to_download_movie_from_bot</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -432,10 +432,10 @@ async def start(client, message):
         f_caption = f"@moviescrown123 {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
-            InlineKeyboardButton("Refresh Token", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+            InlineKeyboardButton("Free Subscription", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b><b>You are not verified ! ʜᴇʟᴏ {} Your Token Is Expired,\nKindly verify to your token and get free membership in group !\nthis validity 12 hours only \nafter verification u r premium member in this group</b>",
+            text="<b><b>Hey {message.from_user.mention} ग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \nMembership of the group is absolutely free by visiting the link given below !\nhttps://t.me/how_to_download_movie_from_bot</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
