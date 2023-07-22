@@ -153,10 +153,9 @@ async def next_page(bot, query):
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
     else:
-        btn = []
-        btn.insert(0, [
+        btn = [[
             InlineKeyboardButton("𝐆𝐄𝐓 𝐅𝐑𝐄𝐄 𝐒𝐔𝐁𝐒𝐑𝐈𝐏𝐓𝐈𝐎𝐍", url="https://t.me/how_to_download_movie_from_bot"))
-            ])     
+        ]]   
     try:
         if settings['max_btn']:
             if 0 < offset <= 10:
