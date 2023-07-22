@@ -154,7 +154,7 @@ async def next_page(bot, query):
         ])
     else:
         btn = [[
-            InlineKeyboardButton("𝐆𝐄𝐓 𝐅𝐑𝐄𝐄 𝐒𝐔𝐁𝐒𝐑𝐈𝐏𝐓𝐈𝐎𝐍", url="https://t.me/how_to_download_movie_from_bot"))
+            InlineKeyboardButton("𝐆𝐄𝐓 𝐅𝐑𝐄𝐄 𝐒𝐔𝐁𝐒𝐑𝐈𝐏𝐓𝐈𝐎𝐍", url="https://t.me/how_to_download_movie_from_bot")
         ]]   
     try:
         if settings['max_btn']:
