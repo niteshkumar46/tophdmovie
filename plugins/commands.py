@@ -320,7 +320,7 @@ async def start(client, message):
                     InlineKeyboardButton("Free Subscription", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>Hey \n\nग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \n\nMembership of the group is absolutely free by visiting the link given below !\n\nhttps://t.me/how_to_download_movie_from_bot</b>",
+                    text="<b>Hey \n\nग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \n\nMembership of the group is absolutely free by visiting the link given below !\n\n@how_to_download_movie_from_bot</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -379,7 +379,7 @@ async def start(client, message):
                     InlineKeyboardButton("Free Subscription", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b><b>Hey \n\nग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \n\nMembership of the group is absolutely free by visiting the link given below !\n\nhttps://t.me/how_to_download_movie_from_bot</b>",
+                    text="<b><b>Hey \n\nग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \n\nMembership of the group is absolutely free by visiting the link given below !\n\n@how_to_download_movie_from_bot</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -435,7 +435,7 @@ async def start(client, message):
             InlineKeyboardButton("Free Subscription", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b><b>Hey \n\nग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \n\nMembership of the group is absolutely free by visiting the link given below !\n\nhttps://t.me/how_to_download_movie_from_bot</b>",
+            text="<b><b>Hey \n\nग्रुप की मेंबरशिप बिल्कुल फ्री नीचे दिए ग्ये लिंक में जाकर देखो \n\nMembership of the group is absolutely free by visiting the link given below !\n\n@how_to_download_movie_from_bot</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
