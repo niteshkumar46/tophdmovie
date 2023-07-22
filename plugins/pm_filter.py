@@ -154,6 +154,9 @@ async def next_page(bot, query):
         ])
     else:
         btn = []
+        btn.insert(0, [
+            InlineKeyboardButton("𝐆𝐄𝐓 𝐅𝐑𝐄𝐄 𝐒𝐔𝐁𝐒𝐑𝐈𝐏𝐓𝐈𝐎𝐍", url="https://t.me/how_to_download_movie_from_bot"))
+            ])     
     try:
         if settings['max_btn']:
             if 0 < offset <= 10:
@@ -219,6 +222,11 @@ async def next_page(bot, query):
                     InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
                 ],
             )
+    tutlink = await db.get_settings(self, id):
+    if tutlink and tutlink is not None:
+        btn.insert(0,
+        [InlineKeyboardButton(text="𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃", url=tutlink['tutorial'])]
+        )
     # if ENABLE_SHORTLINK == True:
         # btn.insert(0, [
         #     InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
@@ -1884,6 +1892,11 @@ async def auto_filter(client, msg, spoll=False):
     else:
         btn.append(
             [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
+        )
+    tutlink = await db.get_settings(self, id):
+    if tutlink and tutlink is not None:
+        btn.insert(0,
+        [InlineKeyboardButton(text="𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃", url=tutlink['tutorial'])]
         )
     # imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     cur_time = datetime.now(pytz.timezone('Asia/Kolkata')).time()
