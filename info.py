@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', true))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://tinyfy.in/')
 SHORTLINK_API = environ.get('SHORTLINK_API', '0f46c2fabfba6e6c110f5efd8a74413158b2725b')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', '')
