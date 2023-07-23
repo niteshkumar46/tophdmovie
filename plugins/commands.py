@@ -317,10 +317,10 @@ async def start(client, message):
                 f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Click To Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                    InlineKeyboardButton("Click Here To Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>Hey \n\nOnce verified to use our bot unlimited for 24 hour time period\n\nTo watch how to download click on below button 👇👇 !\n\n@how_to_download_movie_from_bot</b>",
+                    text="<b>Hey \n\nOnce verified to use our bot unlimited for 24 hour time period\n\nTo watch how to verify click on below button 👇👇 !\n\n@how_to_download_movie_from_bot</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -376,10 +376,10 @@ async def start(client, message):
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Click To Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                    InlineKeyboardButton("Click Here To Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b><b>Hey \n\nOnce verified to use our bot unlimited for 24 hour time period\n\nTo watch how to download click on below button 👇👇 !\n\n@how_to_download_movie_from_bot</b>",
+                    text="<b><b>Hey \n\nOnce verified to use our bot unlimited for 24 hour time period\n\nTo watch how to verify click on below button 👇👇 !\n\n@how_to_download_movie_from_bot</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -432,10 +432,10 @@ async def start(client, message):
         f_caption = f"@tophdmoviegroup {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
-            InlineKeyboardButton("Click To Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+            InlineKeyboardButton("Click Here To Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b><b>Hey \n\nOnce verified to use our bot unlimited for 24 hour time period\n\nTo watch how to download click on below button 👇👇 !\n\n@how_to_download_movie_from_bot</b>",
+            text="<b><b>Hey \n\nOnce verified to use our bot unlimited for 24 hour time period\n\nTo watch how to verify click on below button 👇👇 !\n\n@how_to_download_movie_from_bot</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
