@@ -49,8 +49,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True ))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://adrinolinks.in/')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'cf2b74b668bfcd0a759251db8262680b4bc9a5da')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '47243a67843f8210409e41c2a31667c2db2f4d1d')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', '')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
